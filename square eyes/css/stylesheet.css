@@ -1,0 +1,88 @@
+
+
+body, footer{
+     background-image: linear-gradient( to right, #0d0d0d 60%, #f5ed02);
+ }
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+body h1, h2, p {
+    color: #f5ed02;
+    
+}
+
+.logo, h1, h2{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    margin: auto;
+
+}
+.genre{
+    display: flex;
+    align-items: center;
+    margin: 100px 5500px 50px 550px;
+}
+
+footer{
+    background-color: #0d0d0d;
+    color: #f5ed02;
+    text-align: center;
+    min-height: 90px;
+}
+
+
+.cta{
+    display: inline-block;
+    width: calc(50% - 4px);
+    background-color: #f5ed02;
+    color: #0d0d0d;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    width: 115px;
+    height: 30px;
+    text-align: center;
+    margin: 50px 200px;
+}
+
+.cta_buy{
+    background-color: #f5ed02;
+    color: #0d0d0d;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50px;
+    
+}
+.buttons{
+    text-align: center;
+}
+
+/*home page movies*/
+
+.action, .animation, .drama, .horror {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1000px;
+    margin: 50px auto;
+    grid-gap: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 850px){
+    .action, .animation, .drama, .horror {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 50px;}
+        
+        .cta{
+            margin: 55px;
+        }
+}
