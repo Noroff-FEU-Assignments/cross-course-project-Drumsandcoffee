@@ -18,10 +18,14 @@ h1 {
   font-size: 2.5vw;
 }
 
-.material-icons {
-  position: absolute;
-  right: 0;
+.cart,
+.search {
+  position: fixed;
   top: 0;
+  right: 0;
+}
+.search {
+  right: 40px;
 }
 .logo,
 h1,
