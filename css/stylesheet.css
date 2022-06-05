@@ -30,11 +30,8 @@ h1,
 h2 {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 35%;
   margin: auto;
-}
-.logo {
-  size: %;
 }
 
 .genre {
