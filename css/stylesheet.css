@@ -177,6 +177,118 @@ footer {
 
 /*Navbar end*/
 
+/*movie pages*/
+
+
+.movie-details {
+  width: 30%;
+  margin: 250px 250px 150px;
+}
+
+.movie-details-img {
+  width: 1100px;
+  margin: 50px;
+  float: right;
+
+}
+
+.cta_buy_now {
+  background-color: #f5ed02;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 60px;
+  border-radius: 50px;
+  margin: 250px;
+}
+
+/*checkout*/
+
+.checkout {
+  margin: auto;
+  background: #7C7A2B;
+  max-width: 500px;
+  padding: 50px;
+  border-radius: 5px;
+}
+
+.payment_method,
+.form__input,
+.cta_pay,
+.form__label {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: left;
+
+}
+
+.cta_pay {
+  background-color: #f5ed02;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-align: center;
+
+
+}
+
+/*Contact*/
+
+.name,
+.email,
+.cta_submit {
+  display: block;
+  width: 80%;
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+.message {
+  display: block;
+  width: 80%;
+  height: 80px;
+  padding: 10px;
+  margin: 20px 10px;
+  text-align: left;
+}
+
+.cta_submit {
+  background-color: #f5ed02;
+  color: #0d0d0d;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.contact {
+  margin: auto;
+  background: #7C7A2B;
+  max-width: 500px;
+  padding: 50px;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+.about {
+  margin: auto;
+  margin-top: 85px;
+  background: #7C7A2B;
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 5px;
+
+}
 
 
 @media only screen and (max-width: 850px) {
@@ -186,7 +298,7 @@ footer {
   .drama,
   .horror {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin: 50px;
     }
     
