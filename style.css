@@ -1,6 +1,9 @@
 h1 {
-    color: whitesmoke
+    color: black
 }
 p {
-    color: whitesmoke
+    color: blueviolet
+}
+body{
+    background-color: whitesmoke
 }
