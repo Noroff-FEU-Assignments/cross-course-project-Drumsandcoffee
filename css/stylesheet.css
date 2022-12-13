@@ -15,6 +15,24 @@ h2 {
   font-size: 2.4vw;
 }
 
+.nav_box {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: linear-gradient(to right, #0d0d0d 60%, #f5ed02);
+
+
+}
+
+.nav__item {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 .cart,
 .search {
   position: fixed;
@@ -198,7 +216,7 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 60px;
+  padding: 10px 50px;
   border-radius: 50px;
   margin: 250px;
 }
@@ -300,17 +318,16 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 50px;
-    }
-    
+  
+}
+.nav_box {
+  visibility: hidden;
+}
 }
 
-@media only screen and (min-width: 850px){
+@media only screen and (min-width: 849px) {
 
   .hamburger-menu{
     visibility: hidden;
   }
 }
-
-
-
-
