@@ -258,7 +258,8 @@ footer {
 
 /*Contact*/
 
-form {
+form,
+.checkoutForm {
   padding: 1em;
   background: rgb(8, 8, 8);
   border-radius: 1rem;
@@ -322,7 +323,8 @@ button {
   text-align: center;
 }
 
-.contact {
+.contact,
+.checkout {
   margin: auto;
   background: #7C7A2B;
   max-width: 500px;

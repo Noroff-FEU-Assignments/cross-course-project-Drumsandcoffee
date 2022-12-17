@@ -49,10 +49,10 @@
             <li><a class="menu__item" href="contact.html">Contact Us</a></li>
         </ul>
     </div>
-    <div class="checkout">
-
+<main class="checkoutContainer">
+                <div class="checkout">
         <h1>Checkout</h1>
-        <form action="">
+        <form id="checkoutForm">
             <select class="payment_method">
                 <label for="payment_method">Payment Method</label>
                 <option>Choose payment method</option>
@@ -60,15 +60,46 @@
                 <option>Mastercard</option>
                 <option>PayPal</option>
             </select>
-            <label for="card_number" class="form__label">Card Number</label>
-            <input type="text" class="form__input">
-            <label for="card_holder" class="form__label">Name of Card Holder</label>
-            <input type="text" class="form__input">
-            <label for="cvc" class="form__label">CVC</label>
-            <input type="text" class="form__input">
-            <label for="expiration" class="form__label">Expiration Date</label>
-            <input type="text" class="form__input">
-            <a href="index.html" class="cta_pay">Pay & Play</a>
+            <div>
+                <label>
+                    Card Number (required)
+                    <input name="card" id="card" />
+                </label>
+                <div class="form-error" id="cardError">Please enter card number</div>
+            </div>
+            <div>
+                <label>
+                    Cardholder Name (required)
+                    <input name="cardname" id="cardname" />
+                </label>
+                <div class="form-error" id="cardnameError">Please enter name of cardholder</div>
+                <div>
+                    <label>
+                        CVC (required)
+                        <input name="cvc" id="cvc" />
+                    </label>
+                    <div class="form-error" id="cvcError">Please enter CVC</div>
+                </div>
+                <div>
+                    <label>
+                        Expiration Date (MM/YY)
+                        <input name="expiration" id="expiration" />
+                    </label>
+                    <div class="form-error" id="expirationError">Please enter cards expiration date</div>
+                </div>
+            
+            
+                <p>The movie will start once you hit the Pay & Play button</p>
+            
+                <button>Pay & Play</button>
+                </form>
+            </div>
+            
+            
+            
+            
+            </main>
+
 
 
         </form>
