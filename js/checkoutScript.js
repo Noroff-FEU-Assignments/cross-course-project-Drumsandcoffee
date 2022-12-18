@@ -20,7 +20,7 @@ function validateForm(event) {
     if (checkLength(cardname.value, 0) === true) {
         cardnameError.style.display = "none";
     } else {
-        nameError.style.display = "block";
+        cardnameError.style.display = "block";
     }
 
     if (checkLength(cvc.value, 0) === true) {
@@ -29,7 +29,7 @@ function validateForm(event) {
         cvcError.style.display = "block";
     }
 
-    if (checkLength(message.value, 0) === true) {
+    if (checkLength(expiration.value, 0) === true) {
         expirationError.style.display = "none";
     } else {
         expirationError.style.display = "block";
