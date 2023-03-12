@@ -15,6 +15,24 @@ h2 {
   font-size: 2.4vw;
 }
 
+.nav_box {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: linear-gradient(to right, #0d0d0d 60%, #f5ed02);
+
+
+}
+
+.nav__item {
+  display: block;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 .cart,
 .search {
   position: fixed;
@@ -198,7 +216,7 @@ footer {
   text-transform: uppercase;
   text-decoration: none;
   font-weight: bold;
-  padding: 10px 60px;
+  padding: 10px 50px;
   border-radius: 50px;
   margin: 250px;
 }
@@ -240,8 +258,43 @@ footer {
 
 /*Contact*/
 
-.name,
-.email,
+form,
+.checkoutForm {
+  padding: 1em;
+  background: rgb(8, 8, 8);
+  border-radius: 1rem;
+}
+
+input {
+  width: 96%;
+  margin-top: 2px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  margin-top: 1rem;
+}
+
+.form-error {
+  display: none;
+  color: red;
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 2px;
+}
+
+button {
+  background: rgb(205, 226, 13);
+  border: black;
+  width: 200px;
+  padding: 1rem;
+  color: rgb(0, 0, 0);
+  margin-top: 10px;
+  cursor: pointer;
+  border-radius: 22px;
+}
 .cta_submit {
   display: block;
   width: 80%;
@@ -270,7 +323,8 @@ footer {
   text-align: center;
 }
 
-.contact {
+.contact,
+.checkout {
   margin: auto;
   background: #7C7A2B;
   max-width: 500px;
@@ -300,17 +354,16 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 50px;
-    }
-    
+  
+}
+.nav_box {
+  visibility: hidden;
+}
 }
 
-@media only screen and (min-width: 850px){
+@media only screen and (min-width: 849px) {
 
   .hamburger-menu{
     visibility: hidden;
   }
 }
-
-
-
-
