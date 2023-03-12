@@ -2,7 +2,7 @@
 cross-course-project-Drumsandcoffee created by GitHub Classroom
 # Square Eyes
 
-![image](https://user-images.githubusercontent.com/52622303/164316813-4b12d99f-aeb7-4069-85cf-e72b3a50ac99.png)
+![image](https://github.com/Noroff-FEU-Assignments/cross-course-project-Drumsandcoffee/blob/0871e656826b8198872b93a978729cc1c4d0f984/images/squareeyesScreenshot.png)
 
 The purpose of this project was to make a pay per view streaming website
 
